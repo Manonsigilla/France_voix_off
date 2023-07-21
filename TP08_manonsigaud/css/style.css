@@ -1,0 +1,511 @@
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
+* {
+    font-family: open sans;
+    margin: 0;
+}
+
+/* ------------------HEADER DEBUT --------------- */
+
+header .menu_responsive {
+    display: none;
+}
+#first_header {
+    display: flex;
+    background-color: #599EE6;
+    justify-content: space-between;
+    color: #F0F7FD;
+    padding: 5px 50px;
+}
+#first_header a{
+    text-decoration: none;
+    color: #F0F7FD;
+}
+#first_header a:hover {
+    color: #2470c1;
+}
+.first_header_container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+#panier {
+    border: 1px solid #F0F7FD;
+    padding: 3px;
+}
+#second_header {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    border-bottom: 1px solid #599EE6;
+    justify-content: space-between;
+    align-items: center;
+}
+#second_header img{
+    max-width: 250px;
+}
+.navbar{
+    display: flex;
+    gap: 25px;
+}
+.navbar ul {
+    display: flex;
+    gap: 15px;
+}
+.navbar ul li {
+    list-style: none;
+}
+.navbar ul a{
+    text-decoration: none;
+    color: black;
+}
+.navbar ul a:hover{
+    color: #599EE6;
+}
+#accueil {
+    color: #599EE6;
+}
+#search_bar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border: 1px solid black;
+    height: 25px;
+    width: 130px;
+    padding-left: 5px;
+}
+
+/* ------------------HEADER FIN ---------------   */
+
+/* --------------- MAIN DEBUT ------------------------------*/
+
+#first_grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    max-width: 1440px;
+    margin: auto;
+    padding: 100px 20px;
+}
+#first_grid_container p {
+    display: inline;
+    margin: auto;
+}
+#voix_off_video{
+    background-image: url("../img/pexels-dmitry-demidov-3783471.jpg");
+    background-size: cover;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    height: 250px;
+    align-items: center;
+    display: flex;
+}
+#musique{
+    background-image: url("../img/pexels-wallace-chuck-3587478.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    height: 250px;
+    align-items: center;
+    display: flex;
+}
+#sound_design{
+    background-image: url("../img/Sound\ Design.jpg");
+    background-size: cover;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    height: 250px;
+    align-items: center;
+    display: flex;
+}
+#voix_off_digital{
+    background-image: url(../img/Voix\ Off\ digital\ learning\ \ OK.jpg);
+    background-size: cover;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    height: 250px;
+    align-items: center;
+    display: flex;
+}
+#trad{
+    background-image: url(../img/pexels-vlada-karpovich-4050315.jpg);
+    background-size: cover;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    height: 250px;
+    align-items: center;
+    display: flex;
+}
+#mixage{
+    background-image: url(../img/pexels-dmitry-demidov-3784566.jpg);
+    background-size: cover;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    height: 250px;
+    align-items: center;
+    display: flex;
+}
+/* ----------CARDS DEBUT------------------------- */
+.blue {
+    max-width: 1440px;
+    margin: auto;
+    color: #599EE6;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+.red {
+    margin: auto;
+    max-width: 1440px;
+    color: red;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+.card_container{
+    box-sizing: border-box;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    max-width: 1440px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    box-shadow: 3px 3px 3px 3px #F0F7FD;
+}
+.card>*{
+    padding: 10px;
+    display: block;
+}
+.card .comedien_name {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: red;
+}
+#emilie {
+    padding-bottom: 20px;
+}
+.comedien_information input {
+    color: #F0F7FD;
+    background-color: #599EE6;
+    border: none;
+    padding: 10px 100px;
+}
+.comediens {
+    padding: 100px 20px;
+}
+/*********************** CARD FIN ***********************************/
+
+/************************ SPONSORS DEBUT*****************************/
+
+#sponsors {
+    margin: 0;
+    background-color: #2470c1;
+    padding: 100px 0px;
+}
+#sponsors h2 {
+    color: #F0F7FD;
+    max-width: 1440px;
+    margin: auto;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#sponsors-logos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    max-width: 1440px;
+    margin: auto;
+    padding: 20px;
+}
+#sponsors-logos img {
+    max-width: 100%;
+    margin: auto;
+}
+
+/*************************** SPONSOR FIN**************************** */
+
+/*****************************A PROPOS DEBUT *************************/
+
+#a_propos{
+    max-width: 1440px;
+    margin: auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    align-items: center;
+}
+#a_propos_article{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#a_propos_article h2 {
+    font-weight: 600;
+}
+#a_propos img{
+    max-width: 100%;
+    margin: auto;
+}
+#a_propos_button {
+    color: #F0F7FD;
+    background-color: #599EE6;
+    border: none;
+    padding: 10px 30px;
+    box-shadow: 0px 0px 6px 5px #eee;
+}
+
+/******************************A PROPOS FIN **************************/
+
+/**************************** VIDEOS REAL DEBUT********************  */
+
+#videos {
+    max-width: 1440px;
+    margin: auto;
+    padding: 100px 20px;
+}
+#videos_real {
+    max-width: 1440px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px;
+    gap: 40px;
+}
+#videos_real img {
+    max-width: 100%;
+    margin: auto;
+}
+
+/****************************** VIDEOS REAL FIN ***********************/
+
+/****************************** COMMENTAIRES DEBUT ********************/
+
+#avis{
+    padding: 100px 20px;
+}
+#commentaires {
+    max-width: 1440px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px;
+    gap: 50px;
+}
+.commentaire_proprietaire {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 50px;
+}
+.commentaire_proprietaire img {
+    max-width: 80px;
+    margin: auto;
+}
+.commentaire_contenu {
+    border: 1px solid white;
+    box-shadow: -1px -1px 18px 12px #eee;
+    height: 200px;
+    padding: 15px;
+}
+#triangle-code{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 60px solid #fcfcfc;
+    border-right : 40px solid transparent;
+    border-left : 40px solid transparent;
+    margin-left: 50px;
+   }
+/****************************** COMMENTAIRES FIN ********************/
+
+/***************************** FOOTER DEBUT *************************/
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+footer a:hover {
+    color: #599EE6;
+}
+footer h3 {
+    font-size: 15px;
+}
+#footer1 {
+    background-color: rgb(12, 12, 120);
+    padding: 50px;
+    margin: auto;
+}
+#footer1 img {
+    max-width: 1440px;
+    margin: auto;
+    display: block;
+}
+#footer2 {
+    background-color: #599EE6;
+    display: flex;
+    justify-content: space-around;
+    color: #F0F7FD;
+    padding: 10px;
+    margin: auto;
+}
+#footer2 div {
+    display: flex;
+    max-width: 1440px;
+    gap: 15px;
+    align-items: center;
+}
+#footer3 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 1440px;
+    margin: auto;
+    padding: 40px;
+    gap: 40px;
+    border-bottom: 1px solid #2470c1;
+}
+#footer3 img {
+    max-width: 100%;
+    margin: auto;
+}
+#footer_contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer_contact_elements {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer_liens {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer_options h3 {
+    padding-bottom: 15px;
+}
+.fa-square-facebook, .fa-instagram, .fa-linkedin {
+   color: black;
+   padding: 5px;
+   font-size: 30px;
+}
+#footer4 {
+    padding: 20px;
+    text-align: center;
+    font-size: 10px;
+}
+/***************************** FOOTER FIN ****************************/
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+    #first_header {
+        display: flex;
+        justify-content: space-between;
+    }
+    header #second_header {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        padding: 20px;
+    }
+    header .menu_responsive {
+        display: block;
+    }
+    #first_grid_container {
+        padding: 20px;
+        grid-template-columns: 1fr;
+    }
+    .card_container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #videos_real {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #commentaires {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .commentaire_proprietaire {
+        padding: 10px 50px;
+    }
+    #footer3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1439px){
+    .navbar {
+        display: none;
+    }
+    #first_header {
+        display: flex;
+        justify-content: space-between;
+    }
+    header #second_header {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+    header .menu_responsive {
+        display: block;
+    }
+    #first_grid_container {
+        padding: 20px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .card_container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #videos_real {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #commentaires {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .commentaire_proprietaire {
+        padding: 10px 50px;
+    }
+    #footer3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
